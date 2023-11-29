@@ -6,6 +6,7 @@ target_num = 14 # 목표 숫자
 # 1. 재귀함수 구현
 # Input: 남은 숫자의 갯수, 남은 숫자의 합
 def func(left_num, left_target):
+    print(left_num, left_target)
     # 1-1. 남은 숫자가 없을 때
     if left_num == 0:
         # 1-1-1. 남은 숫자의 합이 0일때
